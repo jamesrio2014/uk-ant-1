@@ -1,0 +1,699 @@
+html, body {
+  scroll-behavior: smooth;
+  margin: 0;
+  background: #939393;
+}
+
+body {
+  background: #fff;
+  margin: auto;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+.wrapper {
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+}
+.forma {
+  background: #2d333e;
+}
+
+.forma .top {
+  background: url("../img/bgform.png");
+  background-size: 100% 100%;
+  padding-bottom: 70px;
+}
+
+.forma .title-wrap {
+  text-align: center;
+}
+
+.forma .title {
+  font-size: 36px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+}
+
+.forma .title .titlespan {
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9f10), to(#ffd02d));
+  background: linear-gradient(0deg, #ff9f10 0%, #ffd02d 100%);
+  border-radius: 5px 0 0 5px;
+  padding: 10px 15px;
+  display: block;
+  color: #333;
+}
+
+.forma .title .titlespan2 {
+  border-radius: 0 5px 5px 0;
+  padding: 10px 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
+.forma .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 30px;
+}
+
+.forma .description .left {
+  color: #fff;
+  padding-left: 20px;
+  font-size: 24px;
+  padding-right: 50px;
+}
+
+.forma .description .left:first-line {
+  color: #00baff;
+}
+
+.forma .description .right {
+  position: relative;
+  padding-right: 15px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  padding: 15px;
+  padding-left: 50px;
+  border-radius: 5px 0 0 5px;
+  min-width: 90px;
+}
+
+.forma .description .right span {
+  color: #ffcf2d;
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+}
+
+.forma .description .right img {
+  position: absolute;
+  left: -35px;
+}
+
+.forma .features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.forma .features .left div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+  font-size: 15px;
+  margin: 20px 0;
+}
+
+.forma .features .left div p:first-line {
+  color: #ffcf2d;
+}
+
+.forma .features .left div img {
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 41px;
+  height: 41px;
+}
+
+.forma .features .l1 {
+  width: 95%;
+}
+
+.forma .features .l2 {
+  width: 92%;
+}
+
+.forma .features .l3 {
+  width: 89%;
+}
+
+.forma .features .right {
+  position: relative;
+  margin-right: 20px;
+}
+
+.forma .features .right .text {
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  -webkit-transform: translateY(-50%) translateX(-50%);
+          transform: translateY(-50%) translateX(-50%);
+  text-align: center;
+  color: #333;
+}
+
+.forma .features .right .text .t1 {
+  font-style: italic;
+  white-space: nowrap;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 1);
+}
+
+.forma .features .right .text .t2 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.forma .features .right .text .t3 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.forma .timer p {
+  text-align: center;
+  color: #fff;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.forma .clockdiv {
+  margin: auto;
+  display: block;
+  font-weight: 500;
+  text-align: center;
+  font-size: 40px;
+  color: #ffcf2d;
+}
+
+.forma .clockdiv > div {
+  display: inline-block;
+}
+
+.forma .clockdiv div > span {
+  padding: 8px;
+  border-radius: 5px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#18191b), to(#1d1e1f));
+  background: linear-gradient(180deg, #18191b 0%, #1d1e1f 100%);
+  display: inline-block;
+  width: 55px;
+}
+
+.forma .clockdiv .mins:before, .forma .clockdiv .mins:after {
+  content: ":";
+  color: #fff;
+}
+
+.forma .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  margin: 0 40px;
+  margin-top: 30px;
+}
+
+.forma .price .old {
+  background: #f1f1f1;
+  width: 50%;
+  border-radius: 5px 0 0 5px;
+}
+
+.forma .price .old p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.forma .price .old span {
+  display: inline-block;
+  font-size: 36px;
+  margin: 0 0 10px;
+  text-decoration: line-through;
+}
+
+.forma .price .new {
+  background: #00baff;
+  width: 50%;
+  border-radius: 0 5px 5px 0;
+  color: #fff;
+}
+
+.forma .price .new p {
+  margin: 0;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.forma .price .new span {
+  display: inline-block;
+  font-size: 36px;
+  margin: 0 0 10px;
+  font-weight: bold;
+}
+
+.btn {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  outline: none;
+  background: -webkit-gradient(linear, left bottom, left top, from(#ff9f10), to(#ffd02d));
+  background: linear-gradient(0deg, #ff9f10 0%, #ffd02d 100%);
+  display: block;
+  margin: 30px 40px;
+  text-align: center;
+  padding: 15px 10px;
+}
+
+.leftprod {
+  text-align: center;
+  font-size: 18px;
+  color: #fff;
+  position: relative;
+  padding-bottom: 30px;
+}
+
+.leftprod span {
+  background: #00baff;
+  font-size: 20px;
+  padding: 5px 10px;
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.leftprod img {
+  position: absolute;
+  right: 15px;
+  top: -54px;
+}
+
+.block2 h2 {
+  color: #2585e7;
+  text-align: center;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 40px 0;
+}
+
+.block2 h2:first-line {
+  color: #333;
+}
+
+.block2 .gif {
+  width: 100%;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.block2 p {
+  padding: 0 20px;
+  margin: 30px 0;
+  color: #222;
+  text-align: center;
+  line-height: 30px;
+}
+
+.block2 img {
+  width: 100%;
+  display: block;
+}
+
+.block3 {
+  background: url("../img/bg3.jpg");
+  background-size: 100% 100%;
+  padding: 15px 0;
+}
+
+.block3 .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  padding: 15px 0;
+}
+
+.block3 .item:nth-child(even) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  margin-left: 0;
+  margin-right: 20px;
+}
+
+.block3 .item .item1 {
+  background: #fff;
+  padding: 20px 15px;
+  border-left: 20px solid gold;
+  -o-border-image: linear-gradient(0deg, #ff9f10 0%, #ffd02d 100%) 1;
+     border-image: -webkit-gradient(linear, left bottom, left top, from(#ff9f10), to(#ffd02d)) 1;
+     border-image: linear-gradient(0deg, #ff9f10 0%, #ffd02d 100%) 1;
+}
+
+.block3 .item .item1 p {
+  margin-top: 10px;
+  margin-bottom: 0;
+  color: #333;
+  line-height: 24px;
+}
+
+.block3 .item .item1 b {
+  margin-bottom: 0px;
+  margin-top: 0;
+  color: #333333;
+  font-size: 30px;
+  overflow-wrap: anywhere;
+}
+
+.block3 .item .item2 {
+  min-width: 205px;
+  min-height: 225px;
+  background-size: cover;
+  background-position: center;
+}
+
+.block3 .leftprod {
+  padding-top: 40px;
+  padding-bottom: 0;
+}
+
+.block3 .btn {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.block4 {
+  position: relative;
+}
+
+.block4 h2 {
+  font-size: 36px;
+  text-transform: uppercase;
+  color: #00eeff;
+  position: absolute;
+  padding-right: 80px;
+  top: 0;
+  left: 20px;
+}
+
+.block4 h2:first-line {
+  color: #fff;
+}
+
+.block4 img {
+  display: block;
+  width: 100%;
+}
+
+.block4 p {
+  padding: 0 20px;
+  margin: 30px 0;
+  color: #222;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.block4 p b {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.block5 {
+  position: relative;
+}
+
+.block5 img {
+  display: block;
+  width: 100%;
+}
+
+.block5 h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #2585e7;
+  position: absolute;
+  background: #fff;
+  width: 70%;
+  padding: 10px;
+  text-align: center;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+.block5 h2:first-line {
+  color: #333;
+}
+
+.block5 .about {
+  margin: 15px;
+  border-radius: 5px;
+  background: #fff;
+  margin-top: -20px;
+  position: relative;
+}
+
+.block5 .about .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 10px 0;
+  background: #fff;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+.block5 .about .item:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+.block5 .about .item:first-child {
+  border-radius: 5px 5px 0 0;
+}
+
+.block5 .about .item:before {
+  content: url("../img/dot.png");
+  padding-right: 10px;
+}
+
+.block5 .about .item span {
+  color: #333;
+}
+
+.block5 .about .item span:first-child {
+  font-weight: bold;
+}
+
+.block5 .about .item span:last-child {
+  margin-left: auto;
+}
+
+.block5 .pack {
+  display: block;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.block5 .pack .text {
+  position: absolute;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  top: 40px;
+  left: 40px;
+  width: 40%;
+}
+
+.block5 .pack-items {
+  background: -webkit-gradient(linear, left bottom, left top, from(#009fce), to(#0088ce));
+  background: linear-gradient(0deg, #009fce 0%, #0088ce 100%);
+  border-radius: 15px;
+  margin: 0 20px;
+  color: #fff;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 8px;
+  margin-bottom: -110px;
+}
+
+.block5 .pack-items .item {
+  border-bottom: 1px dashed #22a7d5;
+  width: 42%;
+  margin: 5px;
+  padding: 5px 0;
+}
+
+.block6 {
+  background: url("../img/bg3.jpg");
+  background-size: cover;
+  margin-bottom: -2px;
+}
+
+.block6 h2 {
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffbc00;
+  padding-top: 130px;
+}
+
+.block6 .name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block6 .name img {
+  border: 3px solid #b09fb3;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+
+.block6 .name div {
+  padding-left: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.block6 .rev {
+  width: 70%;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+  margin-top: 25px;
+}
+
+.block6 p {
+  color: #fff;
+  text-align: center;
+  line-height: 30px;
+  font-size: 16px;
+  padding: 10px 20px 30px;
+  margin-bottom: 0;
+}
+
+form {
+  padding: 0 40px;
+  margin-top: 30px;
+}
+
+form div {
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20px;
+  color: #333;
+  outline: none;
+  height: 52px;
+}
+
+button {
+  border: none;
+  margin: 30px 0 !important;
+  width: 100%;
+}
+
+.forma {
+  padding-bottom: 30px;
+}
+form .input-wrapper label {
+  display: none;
+  pointer-events: none;
+}
+
+form .input-wrapper {
+  position: relative;
+  margin: 0 auto 20px;
+}
+
+form .input-wrapper .error {
+  border: 1px solid red!important;
+  padding-top: 6px!important;
+}
+
+form .input-wrapper .error+label {
+  width: 100%;
+  height: 100%;
+  color: red;
+  display: block !important;
+  font-size: 11px;
+  line-height: 17px;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  text-align: left!important;
+}
+
+form .input-wrapper .error+label:before,
+form .input-wrapper .error+label:after {
+  content: "";
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  width: 3px;
+  height: 21px;
+  background-color: red
+}
+
+form .input-wrapper .error+label:before {
+  -webkit-transform: translate(0, -50%) rotate(135deg);
+  transform: translate(0, -50%) rotate(135deg)
+}
+
+form .input-wrapper .error+label:after {
+  -webkit-transform: translate(0, -50%) rotate(45deg);
+  transform: translate(0, -50%) rotate(45deg)
+}
+.footer {
+  max-width: 480px!important;
+  background: #2d333e!important;
+  color: #fff!important;
+}
