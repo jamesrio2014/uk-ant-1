@@ -16,7 +16,7 @@ $enableDebugging = false;
 $enableLogging = true;
 
 // Set this to true if want to use landing page rotator
-$useLPR = true;
+$useLPR = false;
 
 // Set this to the location of the bot page you want to display
 $pathToBotPage = '/clean.php';
