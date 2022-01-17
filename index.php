@@ -19,10 +19,10 @@ $enableLogging = true;
 $useLPR = false;
 
 // Set this to the location of the bot page you want to display
-$pathToBotPage = '/path/to/bot/page.html';
+$pathToBotPage = '/clean.php';
 
 // Set this to the location of the landing page you want to display
-$pathToLandingPage = '/path/to/landing/page.html';
+$pathToLandingPage = '/real.php';
 
 // Allows for modded query strings
 $myQueryString = [];
