@@ -10,15 +10,6 @@
 		<link rel="stylesheet" href="css/main.css">
 	<script type="text/javascript" src="script_land.js" defer></script>
 	<style>.dtpcnt{opacity: 0;}</style>
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QE9CLQ5E3M"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QE9CLQ5E3M');
-</script>
 	</head>
 	<body>
 		<style>.dtpcnt{opacity: 0;}</style>
