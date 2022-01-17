@@ -10,7 +10,7 @@ require 'leadcloak-163cn4klhaz9.php';
 // Configuration
 
 // Set this to false if application is properly installed.
-$enableDebugging = true;
+$enableDebugging = false;
 
 // Set this to false if you won't want to log error messages
 $enableLogging = true;
